@@ -1,7 +1,8 @@
 export class Products{
-    name:string
+    id: number;
+    name:string;
     desc:string;
     img:string;
     price:number;
-    statws:boolean;
+    status:boolean;
 }

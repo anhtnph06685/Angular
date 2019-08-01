@@ -8,14 +8,6 @@
     width: 30.1%;
     height: 100%;
 }
-.row{
-    padding-top: 20px;
-
-}
-.col-md-4{
-    padding-top: 20px;
-    margin-left: 2%;
-}
 .w3-button{
 background-color: black;
 color: blanchedalmond;
@@ -38,3 +30,30 @@ opacity: 90%;
 .w3-container{
     margin-left: 15px;
 }
+.selected{
+    color: red;
+    background-color: red;
+}
+.movies{
+background-color: black;
+}
+.bd-placeholder-img {
+    background-image: url(https://q-ec.bstatic.com/images/hotel/max1024x768/681/68184730.jpg);
+}
+.col-md-5{
+    width: 500px;
+    height: 500px;
+}
+.featurette{
+    background-color: blanchedalmond;
+}
+.ladi-widget-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+

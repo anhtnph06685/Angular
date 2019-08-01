@@ -10,7 +10,12 @@ import { FooterComponent } from './footer/footer.component';
 import { ProductsComponent } from './products/products.component';
 import { BannerComponent } from './banner/banner.component';
 import { NavigationComponent } from './navigation/navigation.component';
-
+import {FormsModule} from '@angular/forms';
+import { ChoseComponent } from './chose/chose.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { AddProductComponent } from './add-product/add-product.component';
+import {ProductServiceService} from './product-service.service';
+import { ViewProductComponent } from './view-product/view-product.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,13 +25,21 @@ import { NavigationComponent } from './navigation/navigation.component';
     FooterComponent,
     ProductsComponent,
     BannerComponent,
-    NavigationComponent
+    NavigationComponent,
+    ChoseComponent,
+    ProductDetailComponent,
+    AddProductComponent,
+    ViewProductComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
+
   ],
-  providers: [],
+  providers: [
+    ProductServiceService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
